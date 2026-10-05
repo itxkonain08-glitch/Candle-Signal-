@@ -1,0 +1,15 @@
+name: candle_signal
+description: Signal-only app showing the next 5-minute candle direction for Binance futures.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
